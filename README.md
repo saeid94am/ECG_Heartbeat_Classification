@@ -42,13 +42,17 @@ The model demonstrates strong performance, particularly on minority classes, whi
 
 ## Repository Structure
 
-* `ECG_Heartbeat_Classification.ipynb` — Main implementation
+* `notebook` — Includes Main implementation
 * `README.md` — Project documentation
+* `requirements.txt` - dependencies
 * `mitbih` — Data directory
+* `img` - result images directory
+
 
 ## Requirements
 
-* Python 3.x
-* TensorFlow / Keras
-* NumPy, Pandas, Matplotlib
-* Scikit-learn
+python==3.10.11
+
+Install dependencies using:
+
+pip install -r requirements.txt
